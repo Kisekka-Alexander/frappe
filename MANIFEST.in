@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include offences_management *.css
+recursive-include offences_management *.csv
+recursive-include offences_management *.html
+recursive-include offences_management *.ico
+recursive-include offences_management *.js
+recursive-include offences_management *.json
+recursive-include offences_management *.md
+recursive-include offences_management *.png
+recursive-include offences_management *.py
+recursive-include offences_management *.svg
+recursive-include offences_management *.txt
+recursive-exclude offences_management *.pyc
