@@ -94,9 +94,11 @@
    "label": "GPS Location"
   },
   {
+   "default": "0",
    "fieldname": "exhibit_present",
-   "fieldtype": "Data",
-   "label": "Exhibit Present?"
+   "fieldtype": "Check",
+   "label": "Exhibit Present?",
+   "options": "No\nYes"
   },
   {
    "fieldname": "section_break_14",
@@ -110,7 +112,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-19 18:01:36.666164",
+ "modified": "2022-06-20 17:26:13.704715",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offence Particulars",

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2022-06-19 16:39:00.021083",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -19,7 +20,8 @@
   "officer__in_charge_of_exhibit_contact",
   "date_of_exhibit_storage",
   "place_of_exhibit_storage",
-  "exhibit_narrative"
+  "exhibit_narrative",
+  "naming_series"
  ],
  "fields": [
   {
@@ -94,14 +96,24 @@
    "fieldname": "submit",
    "fieldtype": "Button",
    "label": "Submit"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "no_copy": 1,
+   "options": "EXHT-.YYYY.-",
+   "set_only_once": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-19 17:35:59.363488",
+ "modified": "2022-06-20 15:22:36.382250",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Exhibit Particulars",
+ "name_case": "Title Case",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

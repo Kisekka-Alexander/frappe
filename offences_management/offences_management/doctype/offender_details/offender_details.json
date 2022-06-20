@@ -52,14 +52,16 @@
   },
   {
    "fieldname": "conservation_area",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Conservation Area",
-   "options": "Kidepo\nBwindi\nQueen Elizabeth"
+   "options": "Parks",
+   "reqd": 1
   },
   {
    "fieldname": "upload_suspect_image",
    "fieldtype": "Attach Image",
-   "label": "Upload Suspect Image"
+   "label": "Upload Suspect Image",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_7",
@@ -68,13 +70,15 @@
   {
    "fieldname": "address",
    "fieldtype": "Data",
-   "label": "Address"
+   "label": "Address",
+   "reqd": 1
   },
   {
    "fieldname": "nationality",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Nationality",
-   "options": "Uganda\nKenya"
+   "options": "Nationality",
+   "reqd": 1
   },
   {
    "fieldname": "age_of_offender",
@@ -85,15 +89,18 @@
   },
   {
    "fieldname": "suspect_district",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Suspect District",
-   "options": "Foreigner\nKampala"
+   "options": "Districts",
+   "reqd": 1
   },
   {
    "fieldname": "suspect_tribe",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Suspect Tribe",
-   "options": "Foreigner\nKampala"
+   "options": "Tribes",
+   "reqd": 1
   },
   {
    "fieldname": "continue",
@@ -103,6 +110,7 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "series",
    "no_copy": 1,
    "options": "OFFE-.YYYY.-",
@@ -111,7 +119,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-19 16:13:43.004335",
+ "modified": "2022-06-21 02:05:06.361318",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offender Details",
