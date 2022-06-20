@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2022-06-19 03:00:16.658283",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "telephone_no",
+  "gender",
+  "the_nin_0r_passport_in_case_of_foreigners",
+  "conservation_area",
+  "upload_suspect_image",
+  "column_break_7",
+  "address",
+  "nationality",
+  "age_of_offender",
+  "suspect_district",
+  "suspect_tribe",
+  "continue",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "telephone_no",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Telephone No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "the_nin_0r_passport_in_case_of_foreigners",
+   "fieldtype": "Data",
+   "label": "The NIN 0r passport in case of foreigners"
+  },
+  {
+   "fieldname": "conservation_area",
+   "fieldtype": "Select",
+   "label": "Conservation Area",
+   "options": "Kidepo\nBwindi\nQueen Elizabeth"
+  },
+  {
+   "fieldname": "upload_suspect_image",
+   "fieldtype": "Attach Image",
+   "label": "Upload Suspect Image"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Select",
+   "label": "Nationality",
+   "options": "Uganda\nKenya"
+  },
+  {
+   "fieldname": "age_of_offender",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age of offender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suspect_district",
+   "fieldtype": "Select",
+   "label": "Suspect District",
+   "options": "Foreigner\nKampala"
+  },
+  {
+   "fieldname": "suspect_tribe",
+   "fieldtype": "Select",
+   "label": "Suspect Tribe",
+   "options": "Foreigner\nKampala"
+  },
+  {
+   "fieldname": "continue",
+   "fieldtype": "Button",
+   "label": "Continue"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "series",
+   "no_copy": 1,
+   "options": "OFFE-.YYYY.-",
+   "set_only_once": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-19 16:13:43.004335",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Offender Details",
+ "name_case": "Title Case",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "name1",
+ "track_changes": 1
+}

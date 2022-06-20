@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-19 16:27:20.369462",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "offence_category",
+  "police_reference_number",
+  "uwa_case_number",
+  "name_of_police_station_of_offence_registration",
+  "arresting_entity",
+  "police_io",
+  "column_break_8",
+  "arresting_officer_names",
+  "arresting_officer_contact",
+  "date_of_arrest",
+  "gps_location",
+  "exhibit_present",
+  "offence_narrative",
+  "section_break_14",
+  "continue"
+ ],
+ "fields": [
+  {
+   "fieldname": "offence_category",
+   "fieldtype": "Select",
+   "label": "Offence Category",
+   "options": "Poaching\nBurning of the bush"
+  },
+  {
+   "fieldname": "police_reference_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Police Reference Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uwa_case_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "UWA Case Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "name_of_police_station_of_offence_registration",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Police Station of Offence Registration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "arresting_entity",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Arresting Entity",
+   "options": "Uganda Police\nUPDF\nUWA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "police_io",
+   "fieldtype": "Data",
+   "label": "Police IO"
+  },
+  {
+   "fieldname": "offence_narrative",
+   "fieldtype": "Text",
+   "label": "Offence Narrative"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arresting_officer_names",
+   "fieldtype": "Data",
+   "label": "Arresting Officer Names"
+  },
+  {
+   "fieldname": "arresting_officer_contact",
+   "fieldtype": "Phone",
+   "label": "Arresting Officer Contact"
+  },
+  {
+   "fieldname": "date_of_arrest",
+   "fieldtype": "Date",
+   "label": "Date of Arrest",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gps_location",
+   "fieldtype": "Geolocation",
+   "label": "GPS Location"
+  },
+  {
+   "fieldname": "exhibit_present",
+   "fieldtype": "Data",
+   "label": "Exhibit Present?"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "continue",
+   "fieldtype": "Button",
+   "label": "Continue"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-19 18:01:36.666164",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Offence Particulars",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-19 16:39:00.021083",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "exhibit_type",
+  "nature_of_exhibit",
+  "animal_species",
+  "exhibit_unit_of_measure",
+  "exhibit_weight",
+  "investigating_officer",
+  "upload_exhibit_image",
+  "submit",
+  "column_break_8",
+  "officer_in_charge_of_exhibit",
+  "officer__in_charge_of_exhibit_contact",
+  "date_of_exhibit_storage",
+  "place_of_exhibit_storage",
+  "exhibit_narrative"
+ ],
+ "fields": [
+  {
+   "fieldname": "exhibit_type",
+   "fieldtype": "Select",
+   "label": "Exhibit Type",
+   "options": "Scales\nHide\nArrows\nGuns"
+  },
+  {
+   "fieldname": "nature_of_exhibit",
+   "fieldtype": "Select",
+   "label": "Nature of Exhibit",
+   "options": "Processed\nNot Processed"
+  },
+  {
+   "fieldname": "animal_species",
+   "fieldtype": "Select",
+   "label": "Animal Species",
+   "options": "Elephant\nLion\nGiraffe\nBuffalo\nHippo\nLeopard\nZebra\nTiger\nAntelope"
+  },
+  {
+   "fieldname": "exhibit_unit_of_measure",
+   "fieldtype": "Select",
+   "label": "Exhibit Unit of Measure",
+   "options": "KGs\nMeters\nLiters"
+  },
+  {
+   "fieldname": "exhibit_weight",
+   "fieldtype": "Float",
+   "label": "Exhibit Weight"
+  },
+  {
+   "fieldname": "investigating_officer",
+   "fieldtype": "Data",
+   "label": "Investigating Officer"
+  },
+  {
+   "fieldname": "exhibit_narrative",
+   "fieldtype": "Text Editor",
+   "label": "Exhibit Narrative "
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "officer_in_charge_of_exhibit",
+   "fieldtype": "Data",
+   "label": "Officer In Charge of Exhibit"
+  },
+  {
+   "fieldname": "officer__in_charge_of_exhibit_contact",
+   "fieldtype": "Phone",
+   "label": "Officer  In Charge of Exhibit Contact"
+  },
+  {
+   "fieldname": "date_of_exhibit_storage",
+   "fieldtype": "Date",
+   "label": "Date of Exhibit Storage"
+  },
+  {
+   "fieldname": "place_of_exhibit_storage",
+   "fieldtype": "Data",
+   "label": "Place of Exhibit Storage"
+  },
+  {
+   "fieldname": "upload_exhibit_image",
+   "fieldtype": "Attach",
+   "label": "Upload Exhibit Image"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-19 17:35:59.363488",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Exhibit Particulars",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,32 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Offences\"}}]",
+ "creation": "2022-06-19 14:58:10.579035",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "criticize",
+ "idx": 0,
+ "label": "Offences",
+ "links": [],
+ "modified": "2022-06-19 14:59:59.211146",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Offences",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 31.0,
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Offenders",
+   "link_to": "Offender Details",
+   "type": "DocType"
+  }
+ ],
+ "title": "Offences"
+}
