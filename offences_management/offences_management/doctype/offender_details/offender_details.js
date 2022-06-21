@@ -6,8 +6,8 @@ frappe.ui.form.on('Offender Details' ,{
 			
 			// frappe.set_route("Form", "Offence Particulars", document.name);
 			frm.add_custom_button('Continue', () => {
-				frm.save()
 				frappe.new_doc('Offence Particulars')
+				frm.save()
 			}).css({'color':'white','font-weight': 'bold','background-color':'#284A87'});
 		
 			set_css(frm);

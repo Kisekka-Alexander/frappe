@@ -18,6 +18,8 @@
   "date_of_arrest",
   "gps_location",
   "exhibit_present",
+  "no",
+  "yes",
   "offence_narrative",
   "section_break_14",
   "continue"
@@ -27,7 +29,8 @@
    "fieldname": "offence_category",
    "fieldtype": "Select",
    "label": "Offence Category",
-   "options": "Poaching\nBurning of the bush"
+   "options": "Poaching\nBurning of the bush",
+   "reqd": 1
   },
   {
    "fieldname": "police_reference_number",
@@ -75,12 +78,14 @@
   {
    "fieldname": "arresting_officer_names",
    "fieldtype": "Data",
-   "label": "Arresting Officer Names"
+   "label": "Arresting Officer Names",
+   "reqd": 1
   },
   {
    "fieldname": "arresting_officer_contact",
    "fieldtype": "Phone",
-   "label": "Arresting Officer Contact"
+   "label": "Arresting Officer Contact",
+   "reqd": 1
   },
   {
    "fieldname": "date_of_arrest",
@@ -96,9 +101,9 @@
   {
    "default": "0",
    "fieldname": "exhibit_present",
-   "fieldtype": "Check",
+   "fieldtype": "Heading",
    "label": "Exhibit Present?",
-   "options": "No\nYes"
+   "options": "\n"
   },
   {
    "fieldname": "section_break_14",
@@ -108,11 +113,23 @@
    "fieldname": "continue",
    "fieldtype": "Button",
    "label": "Continue"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 17:26:13.704715",
+ "modified": "2022-06-21 04:58:21.518707",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offence Particulars",
