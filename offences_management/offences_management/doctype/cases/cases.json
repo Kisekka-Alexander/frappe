@@ -1,0 +1,346 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:uwa_case_number",
+ "creation": "2022-06-22 22:38:29.248307",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "offender_details_section",
+  "full_name",
+  "telephone_no",
+  "gender",
+  "the_nin_or_passport_number_in_case_of_foreigners",
+  "conservation_area",
+  "upload_suspect_image",
+  "column_break_8",
+  "case_status",
+  "address",
+  "nationality",
+  "age_of_offender",
+  "suspect_district",
+  "suspect_tribe",
+  "offence_particulars_section",
+  "offence_category",
+  "police_reference_number",
+  "uwa_case_number",
+  "name_of_police_station_of_offence_registration",
+  "arresting_entity",
+  "police_io",
+  "offence_narrative",
+  "column_break_22",
+  "arresting_officer_names",
+  "arresting_officer_contact",
+  "date_of_arrest",
+  "gps_location",
+  "exhibit_present",
+  "exhibit_particulars_section",
+  "exhibit_type",
+  "nature_of_exhibit",
+  "animal_species",
+  "exhibit_unit_of_measure",
+  "exhibit_weight",
+  "investigating_officer",
+  "exhibit_narrative",
+  "column_break_36",
+  "officer_in_charge_of_exhibit",
+  "officer_in_charge_of_exhibit_contact",
+  "date_of_exhibit_storage",
+  "place_of_exhibit_storage",
+  "upload_exhibit_images"
+ ],
+ "fields": [
+  {
+   "fieldname": "offender_details_section",
+   "fieldtype": "Section Break",
+   "label": "OFFENDER DETAILS"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "telephone_no",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Telephone No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "the_nin_or_passport_number_in_case_of_foreigners",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "The NIN or passport number in case of foreigners",
+   "reqd": 1
+  },
+  {
+   "fieldname": "conservation_area",
+   "fieldtype": "Link",
+   "label": "Conservation Area",
+   "options": "Parks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "upload_suspect_image",
+   "fieldtype": "Attach Image",
+   "label": "Upload Suspect Image",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Nationality",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_of_offender",
+   "fieldtype": "Int",
+   "label": "Age of offender",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suspect_district",
+   "fieldtype": "Link",
+   "label": "Suspect District",
+   "options": "Districts",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suspect_tribe",
+   "fieldtype": "Link",
+   "label": "Suspect Tribe",
+   "options": "Tribes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "offence_particulars_section",
+   "fieldtype": "Section Break",
+   "label": "OFFENCE Particulars"
+  },
+  {
+   "fieldname": "offence_category",
+   "fieldtype": "Select",
+   "label": "Offence Category",
+   "options": "Poaching\nEncroachment\nIllegal Entry",
+   "reqd": 1
+  },
+  {
+   "fieldname": "police_reference_number",
+   "fieldtype": "Data",
+   "label": "Police Reference Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uwa_case_number",
+   "fieldtype": "Data",
+   "label": "UWA Case Number",
+   "no_copy": 1,
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "name_of_police_station_of_offence_registration",
+   "fieldtype": "Data",
+   "label": "Name of Police Station of Offence Registration",
+   "reqd": 1
+  },
+  {
+   "fieldname": "arresting_entity",
+   "fieldtype": "Select",
+   "label": "Arresting Entity",
+   "options": "UPDF\nUganda Police Force\nUWA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "police_io",
+   "fieldtype": "Data",
+   "label": "Police IO",
+   "reqd": 1
+  },
+  {
+   "fieldname": "offence_narrative",
+   "fieldtype": "Text",
+   "label": "Offence Narrative",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arresting_officer_names",
+   "fieldtype": "Data",
+   "label": "Arresting Officer Names",
+   "reqd": 1
+  },
+  {
+   "fieldname": "arresting_officer_contact",
+   "fieldtype": "Phone",
+   "label": "Arresting Officer Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_arrest",
+   "fieldtype": "Date",
+   "label": "Date of Arrest",
+   "reqd": 1
+  },
+  {
+   "fieldname": "gps_location",
+   "fieldtype": "Data",
+   "label": "GPS Location"
+  },
+  {
+   "default": "1",
+   "fieldname": "exhibit_present",
+   "fieldtype": "Check",
+   "label": "Exhibit Present?"
+  },
+  {
+   "fieldname": "exhibit_particulars_section",
+   "fieldtype": "Section Break",
+   "label": "Exhibit Particulars"
+  },
+  {
+   "fieldname": "exhibit_type",
+   "fieldtype": "Select",
+   "label": "Exhibit Type",
+   "options": "Scales\nHides\nArrow(s)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nature_of_exhibit",
+   "fieldtype": "Select",
+   "label": "Nature of Exhibit",
+   "options": "Processed\nNot Processed",
+   "reqd": 1
+  },
+  {
+   "fieldname": "animal_species",
+   "fieldtype": "Select",
+   "label": "Animal Species",
+   "options": "Lion\nElephant\nZebra",
+   "reqd": 1
+  },
+  {
+   "fieldname": "exhibit_unit_of_measure",
+   "fieldtype": "Select",
+   "label": "Exhibit Unit of Measure",
+   "options": "KGs\nMeters",
+   "reqd": 1
+  },
+  {
+   "fieldname": "exhibit_weight",
+   "fieldtype": "Float",
+   "label": "Exhibit Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "investigating_officer",
+   "fieldtype": "Data",
+   "label": "Investigating Officer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "exhibit_narrative",
+   "fieldtype": "Text",
+   "label": "Exhibit Narrative"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "officer_in_charge_of_exhibit",
+   "fieldtype": "Data",
+   "label": "Officer In Charge of Exhibit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "officer_in_charge_of_exhibit_contact",
+   "fieldtype": "Phone",
+   "label": "Officer In Charge of Exhibit Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_exhibit_storage",
+   "fieldtype": "Date",
+   "label": "Date of Exhibit Storage",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_exhibit_storage",
+   "fieldtype": "Data",
+   "label": "Place of Exhibit Storage",
+   "reqd": 1
+  },
+  {
+   "fieldname": "upload_exhibit_images",
+   "fieldtype": "Attach",
+   "label": "Upload Exhibit Images",
+   "reqd": 1
+  },
+  {
+   "fieldname": "case_status",
+   "fieldtype": "Select",
+   "label": "Case Status",
+   "options": "Under Investigation\nProsecution\nReview",
+   "reqd": 1
+  }
+ ],
+ "image_field": "upload_suspect_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-23 00:07:41.987258",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Cases",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "uwa_case_number",
+ "track_changes": 1
+}

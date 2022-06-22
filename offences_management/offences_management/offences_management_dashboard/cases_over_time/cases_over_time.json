@@ -1,0 +1,24 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Cases over Time",
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-23 00:30:00.809822",
+ "dashboard_name": "Cases Over Time",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2022-06-23 00:30:00.809822",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Cases Over Time",
+ "owner": "Administrator"
+}

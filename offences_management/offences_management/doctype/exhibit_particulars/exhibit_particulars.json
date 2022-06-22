@@ -27,41 +27,52 @@
   {
    "fieldname": "exhibit_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Exhibit Type",
-   "options": "Scales\nHide\nArrows\nGuns"
+   "options": "Scales\nHide\nArrows\nGuns",
+   "reqd": 1
   },
   {
    "fieldname": "nature_of_exhibit",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Nature of Exhibit",
-   "options": "Processed\nNot Processed"
+   "options": "Processed\nNot Processed",
+   "reqd": 1
   },
   {
    "fieldname": "animal_species",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Animal Species",
-   "options": "Elephant\nLion\nGiraffe\nBuffalo\nHippo\nLeopard\nZebra\nTiger\nAntelope"
+   "options": "Elephant\nLion\nGiraffe\nBuffalo\nHippo\nLeopard\nZebra\nTiger\nAntelope",
+   "reqd": 1
   },
   {
    "fieldname": "exhibit_unit_of_measure",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Exhibit Unit of Measure",
-   "options": "KGs\nMeters\nLiters"
+   "options": "KGs\nMeters\nLiters",
+   "reqd": 1
   },
   {
    "fieldname": "exhibit_weight",
    "fieldtype": "Float",
-   "label": "Exhibit Weight"
+   "label": "Exhibit Weight",
+   "reqd": 1
   },
   {
    "fieldname": "investigating_officer",
    "fieldtype": "Data",
-   "label": "Investigating Officer"
+   "label": "Investigating Officer",
+   "reqd": 1
   },
   {
    "fieldname": "exhibit_narrative",
    "fieldtype": "Text Editor",
-   "label": "Exhibit Narrative "
+   "label": "Exhibit Narrative ",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_8",
@@ -70,27 +81,32 @@
   {
    "fieldname": "officer_in_charge_of_exhibit",
    "fieldtype": "Data",
-   "label": "Officer In Charge of Exhibit"
+   "label": "Officer In Charge of Exhibit",
+   "reqd": 1
   },
   {
    "fieldname": "officer__in_charge_of_exhibit_contact",
    "fieldtype": "Phone",
-   "label": "Officer  In Charge of Exhibit Contact"
+   "label": "Officer  In Charge of Exhibit Contact",
+   "reqd": 1
   },
   {
    "fieldname": "date_of_exhibit_storage",
    "fieldtype": "Date",
-   "label": "Date of Exhibit Storage"
+   "label": "Date of Exhibit Storage",
+   "reqd": 1
   },
   {
    "fieldname": "place_of_exhibit_storage",
    "fieldtype": "Data",
-   "label": "Place of Exhibit Storage"
+   "label": "Place of Exhibit Storage",
+   "reqd": 1
   },
   {
    "fieldname": "upload_exhibit_image",
-   "fieldtype": "Attach",
-   "label": "Upload Exhibit Image"
+   "fieldtype": "Attach Image",
+   "label": "Upload Exhibit Image",
+   "reqd": 1
   },
   {
    "fieldname": "submit",
@@ -100,15 +116,17 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Series",
    "no_copy": 1,
    "options": "EXHT-.YYYY.-",
    "set_only_once": 1
   }
  ],
+ "image_field": "upload_exhibit_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-20 15:22:36.382250",
+ "modified": "2022-06-21 17:27:36.653719",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Exhibit Particulars",

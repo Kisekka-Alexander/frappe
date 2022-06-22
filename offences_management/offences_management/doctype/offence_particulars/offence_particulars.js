@@ -13,6 +13,6 @@ var set_css = function (frm)
 	document.querySelectorAll("[data-fieldname='continue']")[1].style.backgroundColor="#284A87";
 	document.querySelectorAll("[data-fieldname='continue']")[1].style.color="#FFFFFF";
 	document.querySelectorAll("[data-fieldname='continue']")[1].style.fontSize="18px";
-	document.querySelectorAll("[data-fieldname='exhibit_present']")[1].style.fontWeight="normal";
+	// document.querySelectorAll("[data-fieldname='continue']")[1].style.fontWeight="bold";
 
 }

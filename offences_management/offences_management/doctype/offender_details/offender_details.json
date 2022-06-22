@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "naming_series:",
  "creation": "2022-06-19 03:00:16.658283",
@@ -20,7 +21,9 @@
   "suspect_district",
   "suspect_tribe",
   "continue",
-  "naming_series"
+  "naming_series",
+  "published",
+  "route"
  ],
  "fields": [
   {
@@ -115,11 +118,26 @@
    "no_copy": 1,
    "options": "OFFE-.YYYY.-",
    "set_only_once": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "route"
   }
  ],
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "published",
  "links": [],
- "modified": "2022-06-21 04:41:48.461110",
+ "modified": "2022-06-21 16:51:39.558958",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offender Details",
@@ -141,6 +159,7 @@
   }
  ],
  "quick_entry": 1,
+ "route": "offender-details",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

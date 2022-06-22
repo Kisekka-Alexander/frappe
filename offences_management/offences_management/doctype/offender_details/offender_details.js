@@ -1,14 +1,14 @@
 // Copyright (c) 2022, Alexander and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Offender Details' ,{
+frappe.ui.form.on('Offender Details' ,'continue',{
 	refresh: function(frm) {
 			
 			// frappe.set_route("Form", "Offence Particulars", document.name);
-			frm.add_custom_button('Continue', () => {
-				frappe.new_doc('Offence Particulars')
-				frm.save()
-			}).css({'color':'white','font-weight': 'bold','background-color':'#284A87'});
+			// frm.add_custom_button('Continue', () => {
+			// 	frappe.new_doc('Offence Particulars')
+			// 	frm.save()
+			// }).css({'color':'white','font-weight': 'bold','background-color':'#284A87'});
 		
 			set_css(frm);
 	}

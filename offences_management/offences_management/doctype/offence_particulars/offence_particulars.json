@@ -18,8 +18,6 @@
   "date_of_arrest",
   "gps_location",
   "exhibit_present",
-  "no",
-  "yes",
   "offence_narrative",
   "section_break_14",
   "continue"
@@ -96,12 +94,13 @@
   {
    "fieldname": "gps_location",
    "fieldtype": "Geolocation",
+   "ignore_user_permissions": 1,
    "label": "GPS Location"
   },
   {
    "default": "0",
    "fieldname": "exhibit_present",
-   "fieldtype": "Heading",
+   "fieldtype": "Check",
    "label": "Exhibit Present?",
    "options": "\n"
   },
@@ -113,23 +112,11 @@
    "fieldname": "continue",
    "fieldtype": "Button",
    "label": "Continue"
-  },
-  {
-   "default": "0",
-   "fieldname": "no",
-   "fieldtype": "Check",
-   "label": "No"
-  },
-  {
-   "default": "0",
-   "fieldname": "yes",
-   "fieldtype": "Check",
-   "label": "Yes"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-21 04:58:21.518707",
+ "modified": "2022-06-21 12:52:35.964737",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offence Particulars",

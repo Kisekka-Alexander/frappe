@@ -1,6 +1,14 @@
 
 
-<div>
-	<a href="app/{{ doc.route }}/{{ doc.name }}">{{ doc.title or doc.name }}</a>
+<div class="py-8 row">
+	<a href="app/offender-details/{{ doc.name }}">{{ doc.title or doc.name }}</a>
+
+	<p style='margin-top: 30px'>
+		<a class='btn btn-primary'
+		href='/job_application?new=1&job_title={{ doc.name }}'>
+		{{ _("New Offence") }}</a>
+	</p>
 </div>
+
+
 <!-- this is a sample default list template -->
