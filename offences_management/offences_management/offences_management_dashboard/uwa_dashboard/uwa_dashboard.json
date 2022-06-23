@@ -19,10 +19,7 @@
    "width": "Half"
   },
   {
-   "chart": "Cases by Categorisation",
-   "width": "Half"
-  },
-  {
+   "chart": "Cases by Categorization",
    "width": "Half"
   }
  ],
@@ -33,7 +30,7 @@
  "idx": 0,
  "is_default": 1,
  "is_standard": 1,
- "modified": "2022-06-23 03:50:59.661596",
+ "modified": "2022-06-23 04:29:23.302209",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "UWA Dashboard",

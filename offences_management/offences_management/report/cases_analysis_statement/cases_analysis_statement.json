@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2022-06-23 02:44:38.375888",
+ "modified": "2022-06-23 04:19:26.104374",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Cases Analysis Statement",
@@ -17,7 +17,7 @@
  "prepared_report": 0,
  "ref_doctype": "Cases",
  "report_name": "Cases Analysis Statement",
- "report_type": "Script Report",
+ "report_type": "Query Report",
  "roles": [
   {
    "role": "System Manager"
