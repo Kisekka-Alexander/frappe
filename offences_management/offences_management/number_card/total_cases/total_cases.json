@@ -5,13 +5,13 @@
  "doctype": "Number Card",
  "document_type": "Cases",
  "dynamic_filters_json": "[]",
- "filters_json": "[[\"Cases\",\"date_of_arrest\",\"Between\",[\"2022-06-01\",\"2022-07-01\"],false]]",
+ "filters_json": "[]",
  "function": "Count",
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
  "label": "Total Cases",
- "modified": "2022-06-23 03:43:11.933580",
+ "modified": "2022-06-23 04:38:25.440111",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Total Cases",
@@ -19,6 +19,6 @@
  "parent_document_type": "",
  "report_function": "Sum",
  "show_percentage_stats": 1,
- "stats_time_interval": "Daily",
+ "stats_time_interval": "Monthly",
  "type": "Document Type"
 }
