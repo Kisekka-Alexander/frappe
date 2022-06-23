@@ -1,0 +1,41 @@
+{
+ "cards": [
+  {
+   "card": "Total Cases"
+  },
+  {
+   "card": "Number of Offenders"
+  },
+  {
+   "card": "Protected Areas Reporting"
+  },
+  {
+   "card": "Active Cases"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Cases over Time",
+   "width": "Half"
+  },
+  {
+   "chart": "Cases by Categorisation",
+   "width": "Half"
+  },
+  {
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-06-23 00:40:43.891283",
+ "dashboard_name": "UWA Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2022-06-23 03:50:59.661596",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "UWA Dashboard",
+ "owner": "Administrator"
+}
