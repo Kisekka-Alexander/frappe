@@ -113,7 +113,7 @@
    "fieldname": "nationality",
    "fieldtype": "Link",
    "label": "Nationality",
-   "options": "Nationality",
+   "options": "Country",
    "reqd": 1
   },
   {
@@ -173,7 +173,7 @@
    "fieldname": "arresting_entity",
    "fieldtype": "Select",
    "label": "Arresting Entity",
-   "options": "UPDF\nUganda Police Force\nUWA",
+   "options": "UPDF\nUganda Police\nUWA Security",
    "reqd": 1
   },
   {
@@ -230,7 +230,7 @@
    "fieldname": "exhibit_type",
    "fieldtype": "Select",
    "label": "Exhibit Type",
-   "options": "Scales\nHides\nArrow(s)",
+   "options": "Scales\nHides\nArrows\nAmnitions",
    "reqd": 1
   },
   {
@@ -244,14 +244,14 @@
    "fieldname": "animal_species",
    "fieldtype": "Select",
    "label": "Animal Species",
-   "options": "Lion\nElephant\nZebra",
+   "options": "Hippo\nElephant\nZebra\nRhino\nAntelope",
    "reqd": 1
   },
   {
    "fieldname": "exhibit_unit_of_measure",
    "fieldtype": "Select",
    "label": "Exhibit Unit of Measure",
-   "options": "KGs\nMeters",
+   "options": "Kgs\nMeters",
    "reqd": 1
   },
   {
@@ -309,14 +309,14 @@
    "fieldname": "case_status",
    "fieldtype": "Select",
    "label": "Case Status",
-   "options": "Under Investigation\nProsecution\nReview",
+   "options": "Under Investigation\nProsecution\nReview\nOpen\nClosed",
    "reqd": 1
   }
  ],
  "image_field": "upload_suspect_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-23 00:07:41.987258",
+ "modified": "2022-06-29 15:45:55.982160",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Cases",
