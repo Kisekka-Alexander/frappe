@@ -11,6 +11,9 @@
   },
   {
    "card": "Active Cases"
+  },
+  {
+   "card": "Total Animals"
   }
  ],
  "charts": [
@@ -25,6 +28,10 @@
   {
    "chart": "Categorization By Protected Area",
    "width": "Full"
+  },
+  {
+   "chart": "Categorization by Species",
+   "width": "Half"
   }
  ],
  "creation": "2022-06-24 09:56:16.993568",
@@ -34,7 +41,7 @@
  "idx": 0,
  "is_default": 1,
  "is_standard": 1,
- "modified": "2022-06-30 10:32:35.776591",
+ "modified": "2022-06-30 18:27:58.039169",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "UWA Dashboard",

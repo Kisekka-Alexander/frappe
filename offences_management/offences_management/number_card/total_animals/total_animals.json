@@ -1,0 +1,22 @@
+{
+ "creation": "2022-06-30 18:27:57.688170",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{\"date_from\":\"2022-06-01\",\"date_to\":\"2022-06-30\",\"count\":\"3\"}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "label": "Total Animals",
+ "modified": "2022-06-30 18:27:57.909351",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Total Animals",
+ "owner": "Administrator",
+ "report_field": "Freq",
+ "report_function": "Sum",
+ "report_name": "Most Poached Animals",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

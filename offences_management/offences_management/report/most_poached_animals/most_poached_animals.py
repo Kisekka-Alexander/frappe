@@ -10,13 +10,13 @@ def execute(filters=None):
 	date_to = filters.get("date_to")
 
 	if(filters.get("count")):
-		count=filters.get("count")
+		count=int(filters.get("count"))
 	else: count=1000
 
-	columns, data = [
+	columns=[
 			{
             'fieldname': 'Freq',
-            'label': _('Case Number'),
+            'label': _('Cases Number'),
             'fieldtype': 'Data'
         },
 		{
@@ -38,4 +38,5 @@ def execute(filters=None):
 								)
 	for species in cases_freq:
 		data.append(species)
+
 	return columns, data

@@ -1,5 +1,5 @@
 {
- "add_total_row": 1,
+ "add_total_row": 0,
  "columns": [],
  "creation": "2022-06-30 17:25:36.659222",
  "disable_prepared_report": 0,
@@ -10,7 +10,7 @@
  "idx": 0,
  "is_standard": "Yes",
  "letter_head": "Uganda Wildlife Authority",
- "modified": "2022-06-30 17:25:36.659222",
+ "modified": "2022-06-30 18:17:41.257652",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Most Poached Animals",
