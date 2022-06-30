@@ -21,16 +21,20 @@
   {
    "chart": "Cases by Categorization",
    "width": "Half"
+  },
+  {
+   "chart": "Categorization By Protected Area",
+   "width": "Full"
   }
  ],
- "creation": "2022-06-23 00:40:43.891283",
+ "creation": "2022-06-24 09:56:16.993568",
  "dashboard_name": "UWA Dashboard",
  "docstatus": 0,
  "doctype": "Dashboard",
  "idx": 0,
  "is_default": 1,
  "is_standard": 1,
- "modified": "2022-06-23 04:29:23.302209",
+ "modified": "2022-06-30 10:32:35.776591",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "UWA Dashboard",

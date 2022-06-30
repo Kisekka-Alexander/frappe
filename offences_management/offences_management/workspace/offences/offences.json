@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Offences\"}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cases\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}}]",
  "creation": "2022-06-19 14:58:10.579035",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -10,7 +10,7 @@
  "idx": 0,
  "label": "Offences",
  "links": [],
- "modified": "2022-06-19 14:59:59.211146",
+ "modified": "2022-06-25 13:47:21.262469",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Offences",
@@ -19,13 +19,21 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 31.0,
+ "sequence_id": 27.0,
  "shortcuts": [
   {
-   "doc_view": "",
-   "label": "Offenders",
-   "link_to": "Offender Details",
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Cases",
+   "link_to": "Cases",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Dashboard",
+   "link_to": "UWA Dashboard",
+   "type": "Dashboard"
   }
  ],
  "title": "Offences"

@@ -1,0 +1,13 @@
+{
+ "creation": "2022-06-30 01:22:12.934981",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2022-06-30 01:22:12.934981",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Recent Cases",
+ "owner": "Administrator",
+ "source_name": "Recent Cases",
+ "timeseries": 0
+}

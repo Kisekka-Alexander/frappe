@@ -4,6 +4,13 @@
 
 frappe.query_reports["Cases Analysis Statement"] = {
 	"filters": [
+		{
+            fieldname: 'nationality',
+            label: __('Nationality'),
+            fieldtype: 'Link',
+            options: 'Country'
+           
+        },
 
 	]
 };
