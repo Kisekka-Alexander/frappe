@@ -1,0 +1,31 @@
+{
+ "chart_name": "Categorization By Offence Type",
+ "chart_type": "Report",
+ "creation": "2022-07-01 01:02:20.804048",
+ "custom_options": "{\"x_field\": \"offence_category\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"Freq\"}], \"y_fields\": [\"Freq\"], \"colors\": [null]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{\"date_from\":\"2022-06-01\",\"date_to\":\"2022-06-30\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-07-01 01:02:20.977184",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "Categorization By Offence Type",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Cases By Offense Type",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 0,
+ "x_field": "offence_category",
+ "y_axis": [
+  {
+   "y_field": "Freq"
+  }
+ ]
+}
