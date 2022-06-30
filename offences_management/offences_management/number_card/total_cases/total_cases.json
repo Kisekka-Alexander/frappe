@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "",
- "creation": "2022-06-23 03:22:45.004176",
+ "creation": "2022-06-24 09:56:18.180752",
  "docstatus": 0,
  "doctype": "Number Card",
  "document_type": "Cases",
@@ -11,7 +11,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Total Cases",
- "modified": "2022-06-25 14:11:31.960087",
+ "modified": "2022-07-01 00:31:24.960877",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Total Cases",
