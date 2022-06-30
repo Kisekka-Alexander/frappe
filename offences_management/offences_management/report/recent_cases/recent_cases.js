@@ -24,6 +24,15 @@ frappe.query_reports["Recent Cases"] = {
 
            
         },
+
+        {
+            fieldname: 'gender',
+            label: __('Gender'),
+            fieldtype: 'Link',
+			options: 'Gender'
+
+           
+        },
 		{
             fieldname: 'case_status',
             label: __('Status'),

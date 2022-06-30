@@ -17,6 +17,10 @@ def execute(filters=None):
 		conservation_area=filters.get("conservation_area")
 	else: conservation_area=''
 
+	if (filters.get("gender")):
+		gender=filters.get("gender")
+	else: gender=''
+
 	columns=[
 		{
             'fieldname': 'uwa_case_number',
@@ -27,6 +31,12 @@ def execute(filters=None):
             'fieldname': 'full_name',
             'label': _('Offender Name'),
             'fieldtype': 'Data'
+        },
+		{
+            'fieldname': 'gender',
+            'label': _('Gender'),
+            'fieldtype': 'Link',
+			'options': 'Gender'
         },
 		{
             'fieldname': 'date_of_arrest',
@@ -59,6 +69,7 @@ def execute(filters=None):
 								"""select
 									uwa_case_number,
 									full_name,
+									gender,
 									date_of_arrest,
 									suspect_district,
 									conservation_area,
@@ -68,25 +79,26 @@ def execute(filters=None):
 								""",(date_from,date_to)
 								)
 	for case in cases_list:
-		if((case[3]==suspect_district or suspect_district=='') 
-					and (case[4]==conservation_area or conservation_area=='')
-					and (case[5]==case_status or case_status=='All')
+		if((case[2]==gender or gender=='')
+					and (case[4]==suspect_district or suspect_district=='') 
+					and (case[5]==conservation_area or conservation_area=='')
+					and (case[6]==case_status or case_status=='All')
 					):
 			data.append(case)
 		else: continue
 		
 	return columns, data
 
-def get_cases_list():
-	return frappe.db.sql(
-	"""select
-		uwa_case_number,
-		full_name,
-		date_of_arrest,
-		suspect_district,
-		conservation_area,
-		case_status
+# def get_cases_list():
+# 	return frappe.db.sql(
+# 	"""select
+# 		uwa_case_number,
+# 		full_name,
+# 		date_of_arrest,
+# 		suspect_district,
+# 		conservation_area,
+# 		case_status
 		
-	from `tabCases` """
-	)
+# 	from `tabCases` """
+# 	)
 
