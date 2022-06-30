@@ -20,7 +20,7 @@ def execute(filters=None):
             'fieldtype': 'Data'
         },
 		{
-            'fieldname': 'offense_category',
+            'fieldname': 'offence_category',
             'label': _('Offense Category'),
             'fieldtype': 'Data'
         }
@@ -29,14 +29,14 @@ def execute(filters=None):
 	data=[]
 	cases_freq = frappe.db.sql(
 								"""select
-									count(offense_category) as Freq,
-									offense_category
+									count(offence_category) as Freq,
+									offence_category
 								    from `tabCases` where date_of_arrest between %s and %s
-									group by offense_category
+									group by offence_category
 									order by Freq desc LIMIT %s
 								""",(date_from,date_to,count)
 								)
-	for offense in cases_freq:
-		data.append(offense)
+	for offence in cases_freq:
+		data.append(offence)
 
 	return columns, data
