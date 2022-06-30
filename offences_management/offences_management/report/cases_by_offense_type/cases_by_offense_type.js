@@ -4,6 +4,24 @@
 
 frappe.query_reports["Cases By Offense Type"] = {
 	"filters": [
+		{
+            fieldname: 'date_from',
+            label: __('Date From'),
+            fieldtype: 'Date'
+           
+        },
+		{
+            fieldname: 'date_to',
+            label: __('Date To'),
+            fieldtype: 'Date'
+           
+        },
+		{
+            fieldname: 'count',
+            label: __('Top Most'),
+            fieldtype: 'Link',
+			options: 'Frequency Count'
+        }
 
 	]
 };
