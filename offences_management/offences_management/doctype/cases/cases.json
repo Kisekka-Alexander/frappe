@@ -216,7 +216,7 @@
    "label": "GPS Location"
   },
   {
-   "default": "1",
+   "default": "0",
    "fieldname": "exhibit_present",
    "fieldtype": "Check",
    "label": "Exhibit Present?"
@@ -230,41 +230,35 @@
    "fieldname": "exhibit_type",
    "fieldtype": "Select",
    "label": "Exhibit Type",
-   "options": "Scales\nHides\nArrows\nAmnitions",
-   "reqd": 1
+   "options": "\nScales\nHides\nArrows\nAmnitions"
   },
   {
    "fieldname": "nature_of_exhibit",
    "fieldtype": "Select",
    "label": "Nature of Exhibit",
-   "options": "Processed\nNot Processed",
-   "reqd": 1
+   "options": "\nProcessed\nNot Processed"
   },
   {
    "fieldname": "animal_species",
    "fieldtype": "Select",
    "label": "Animal Species",
-   "options": "Hippo\nElephant\nZebra\nRhino\nAntelope",
-   "reqd": 1
+   "options": "\nHippo\nElephant\nZebra\nRhino\nAntelope"
   },
   {
    "fieldname": "exhibit_unit_of_measure",
    "fieldtype": "Select",
    "label": "Exhibit Unit of Measure",
-   "options": "Kgs\nMeters",
-   "reqd": 1
+   "options": "\nKgs\nMeters"
   },
   {
    "fieldname": "exhibit_weight",
    "fieldtype": "Float",
-   "label": "Exhibit Weight",
-   "reqd": 1
+   "label": "Exhibit Weight"
   },
   {
    "fieldname": "investigating_officer",
    "fieldtype": "Data",
-   "label": "Investigating Officer",
-   "reqd": 1
+   "label": "Investigating Officer"
   },
   {
    "fieldname": "exhibit_narrative",
@@ -278,32 +272,27 @@
   {
    "fieldname": "officer_in_charge_of_exhibit",
    "fieldtype": "Data",
-   "label": "Officer In Charge of Exhibit",
-   "reqd": 1
+   "label": "Officer In Charge of Exhibit"
   },
   {
    "fieldname": "officer_in_charge_of_exhibit_contact",
    "fieldtype": "Phone",
-   "label": "Officer In Charge of Exhibit Contact",
-   "reqd": 1
+   "label": "Officer In Charge of Exhibit Contact"
   },
   {
    "fieldname": "date_of_exhibit_storage",
    "fieldtype": "Date",
-   "label": "Date of Exhibit Storage",
-   "reqd": 1
+   "label": "Date of Exhibit Storage"
   },
   {
    "fieldname": "place_of_exhibit_storage",
    "fieldtype": "Data",
-   "label": "Place of Exhibit Storage",
-   "reqd": 1
+   "label": "Place of Exhibit Storage"
   },
   {
    "fieldname": "upload_exhibit_images",
    "fieldtype": "Attach",
-   "label": "Upload Exhibit Images",
-   "reqd": 1
+   "label": "Upload Exhibit Images"
   },
   {
    "fieldname": "case_status",
@@ -316,7 +305,7 @@
  "image_field": "upload_suspect_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-29 15:45:55.982160",
+ "modified": "2022-07-01 02:46:33.499630",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Cases",
