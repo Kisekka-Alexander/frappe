@@ -1,0 +1,42 @@
+{
+ "charts": [
+  {
+   "chart_name": "Categorization by Species",
+   "label": "Categorization by Species"
+  },
+  {
+   "chart_name": "Cases over Time",
+   "label": "Cases Over Time"
+  },
+  {
+   "chart_name": "Categorization by Protected Areas",
+   "label": "Categorization by Protected Areas"
+  },
+  {
+   "chart_name": "Categorization By Offence Type",
+   "label": "Categorization By Offence Type"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Cases Over Time\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Categorization by Protected Areas\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Categorization By Offence Type\",\"col\":6}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Categorization by Species\",\"col\":6}}]",
+ "creation": "2022-07-01 10:29:33.565491",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list",
+ "idx": 0,
+ "label": "UWA Dashboard",
+ "links": [],
+ "modified": "2022-07-05 23:52:32.751086",
+ "modified_by": "Administrator",
+ "module": "Offences Management",
+ "name": "UWA Dashboard",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "UWA Dashboard"
+}
