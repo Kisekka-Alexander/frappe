@@ -9,7 +9,6 @@
  "field_order": [
   "offender_details_section",
   "full_name",
-  "telephone_no",
   "gender",
   "the_nin_or_passport_number_in_case_of_foreigners",
   "conservation_area",
@@ -63,13 +62,6 @@
    "label": "Full Name",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "telephone_no",
-   "fieldtype": "Phone",
-   "in_list_view": 1,
-   "label": "Telephone No",
-   "reqd": 1
   },
   {
    "fieldname": "gender",
@@ -305,7 +297,7 @@
  "image_field": "upload_suspect_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-07-01 02:46:33.499630",
+ "modified": "2022-07-06 10:25:02.821584",
  "modified_by": "Administrator",
  "module": "Offences Management",
  "name": "Cases",
