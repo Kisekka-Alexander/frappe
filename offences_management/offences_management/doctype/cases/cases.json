@@ -64,6 +64,12 @@
    "unique": 1
   },
   {
+    "fieldname": "telephone_no",
+    "fieldtype": "Data",
+    "label": "Telephone No",
+    "reqd": 1
+   },
+  {
    "fieldname": "gender",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -192,7 +198,7 @@
   },
   {
    "fieldname": "arresting_officer_contact",
-   "fieldtype": "Phone",
+   "fieldtype": "Data",
    "label": "Arresting Officer Contact",
    "reqd": 1
   },
@@ -268,7 +274,7 @@
   },
   {
    "fieldname": "officer_in_charge_of_exhibit_contact",
-   "fieldtype": "Phone",
+   "fieldtype": "Data",
    "label": "Officer In Charge of Exhibit Contact"
   },
   {
