@@ -89,7 +89,7 @@
    "fieldname": "upload_suspect_image",
    "fieldtype": "Attach Image",
    "label": "Upload Suspect Image",
-   "reqd": 1
+   "reqd": 0
   },
   {
    "fieldname": "column_break_8",
